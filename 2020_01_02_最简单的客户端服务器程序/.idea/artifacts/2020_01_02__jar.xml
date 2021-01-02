@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="2020_01_02_最简单的客户端服务器程序:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/2020_01_02__jar</output-path>
+    <root id="archive" name="2020_01_02_最简单的客户端服务器程序.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="2020_01_02_最简单的客户端服务器程序" />
+    </root>
+  </artifact>
+</component>
