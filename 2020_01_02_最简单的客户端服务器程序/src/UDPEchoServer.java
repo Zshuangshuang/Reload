@@ -55,7 +55,7 @@ public class UDPEchoServer {
     }
 
     public static void main(String[] args) throws IOException {
-            UDPEchoServer server = new UDPEchoServer(9090);
+            UDPEchoServer server = new UDPEchoServer(9092);
             server.start();
     }
 }

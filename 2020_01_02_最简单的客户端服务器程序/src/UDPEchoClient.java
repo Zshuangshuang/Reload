@@ -29,8 +29,8 @@ public void start() throws IOException {
                 break;
             }
             //(2)构造请求数据发送给服务器
-           DatagramPacket requestPacket = new DatagramPacket(request.getBytes(),request.getBytes().length,
-                   InetAddress.getByName(serverIp),serverPort);
+            DatagramPacket requestPacket = new DatagramPacket(request.getBytes(),request.getBytes().length,
+                    InetAddress.getByName(serverIp),serverPort);
             socket.send(requestPacket);
             //(3)从服务器读取响应
             DatagramPacket responsePacket = new DatagramPacket(new byte[4096],4096);
@@ -41,7 +41,7 @@ public void start() throws IOException {
         }
 }
     public static void main(String[] args) throws IOException {
-        UDPEchoClient client = new UDPEchoClient("127.0.0.1",9090);
+        UDPEchoClient client = new UDPEchoClient("127.0.0.1",9092);
         client.start();
 
     }
