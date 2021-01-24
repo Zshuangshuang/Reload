@@ -1,5 +1,5 @@
 
-class Solution6 {
+class Solution {
     public void rotate(int[] nums, int k) {
         int len = nums.length;
         int[] newArray = new int[len];

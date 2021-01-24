@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class Main4 {
+public class Main {
     //递归写法
     public static int getTotalCount(int monthCount) {
 

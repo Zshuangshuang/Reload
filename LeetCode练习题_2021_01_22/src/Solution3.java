@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-class Solution3 {
+class Solution {
     public String reverseOnlyLetters(String S) {
        if (S == null){
            return null;

@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution1 {
+class Solution {
     public boolean containsDuplicate(int[] nums) {
         if (nums == null || nums.length == 0){
             return false;

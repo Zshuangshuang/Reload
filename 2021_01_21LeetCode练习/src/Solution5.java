@@ -1,4 +1,4 @@
-class Solution5 {
+class Solution {
     public String toLowerCase(String str) {
 
         if (str.length() == 0 || str == null){

@@ -1,7 +1,11 @@
-import java.util.Scanner;
-
-
-public class Main2 {
+/**
+ * Author:ZouDouble
+ * Description:
+ * 天气：晴天
+ * 目标：Good Offer
+ * Date    2021-01-19 20:57
+ */
+public class Main {
     public static int getTotalCount(int monthCount){
         int firstMonth = 1;
         int secondMonth = 1;
@@ -15,10 +19,8 @@ public class Main2 {
         return totalRabbits;
     }
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        System.out.println(getTotalCount(n));
-    }
+   /* public static void main(String[] args) {
+        System.out.println(getTotalCount(9));
+    }*/
 
 }

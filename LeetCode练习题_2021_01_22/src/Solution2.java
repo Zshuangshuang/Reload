@@ -1,5 +1,5 @@
 
-public class Solution2 {
+public class Solution {
     public int[] sortedSquares(int[] nums) {
         //采用双指针法(类似于归并排序)
         //先找到负数部分的下标
