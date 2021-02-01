@@ -9,7 +9,7 @@ package com.ssz.数字2的个数;
  */
 import java.util.*;
 public class Count2 {
-    public int count(int n) {
+    public static int count(int n) {
         // write code here
         int number =0;
         while(n!=0){
@@ -21,15 +21,17 @@ public class Count2 {
         }
         return number;
     }
-    public int countNumberOf2s(int n) {
+    public static int countNumberOf2s(int n) {
         // write code here
         int count = 0;
         for (int i = 1; i <= n; i++) {
-            count(i);
             count += count(i);
         }
         return count;
     }
 
+    public static void main(String[] args) {
+        System.out.println(countNumberOf2s(100));
+    }
 }
 
