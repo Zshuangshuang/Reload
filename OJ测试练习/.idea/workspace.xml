@@ -40,39 +40,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Count2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ssz.数字2的个数.Count2" />
       <module name="OJ测试练习" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ssz.数字2的个数.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ssz.简单错误记录.Main" />
-      <module name="OJ测试练习" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ssz.简单错误记录.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ssz.找零钱.Main" />
-      <module name="OJ测试练习" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ssz.找零钱.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ssz.数组中出现了一次的数字.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ssz.字母统计.Main" />
       <module name="OJ测试练习" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ssz.数组中出现了一次的数字.*" />
+          <option name="PATTERN" value="com.ssz.字母统计.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,13 +80,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ssz.进制转换.Main" />
+      <module name="OJ测试练习" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ssz.进制转换.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="OJ测试练习" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Count2" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -134,6 +128,7 @@
       <workItem from="1612190116622" duration="75000" />
       <workItem from="1612271588671" duration="2539000" />
       <workItem from="1612354184871" duration="1430000" />
+      <workItem from="1612591632895" duration="4657000" />
     </task>
     <servers />
   </component>
@@ -141,37 +136,41 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1612355629274">
+    <state x="267" y="19" key="#Inspections" timestamp="1612594368748">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1612355629274" />
-    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1612355629273">
+    <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1612594368748" />
+    <state width="1237" height="232" key="GridCell.Tab.0.bottom" timestamp="1612596530753">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1612355629273" />
-    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1612355629273">
+    <state width="1237" height="232" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1612596530753" />
+    <state width="1237" height="232" key="GridCell.Tab.0.center" timestamp="1612596530753">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1612355629273" />
-    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1612355629273">
+    <state width="1237" height="232" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1612596530753" />
+    <state width="1237" height="232" key="GridCell.Tab.0.left" timestamp="1612596530753">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1612355629273" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1612355629274">
+    <state width="1237" height="232" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1612596530753" />
+    <state width="1237" height="232" key="GridCell.Tab.0.right" timestamp="1612596530753">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1612355629274" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1612355629274">
+    <state width="1237" height="232" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1612596530753" />
+    <state width="1237" height="2" key="GridCell.Tab.1.bottom" timestamp="1612596530753">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1612355629274" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1612355629274">
+    <state width="1237" height="2" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1612596530753" />
+    <state width="1237" height="2" key="GridCell.Tab.1.center" timestamp="1612596530753">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1612355629274" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1612355629274">
+    <state width="1237" height="2" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1612596530753" />
+    <state width="1237" height="2" key="GridCell.Tab.1.left" timestamp="1612596530753">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1612355629274" />
+    <state width="1237" height="2" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1612596530753" />
+    <state width="1237" height="2" key="GridCell.Tab.1.right" timestamp="1612596530753">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1612596530753" />
   </component>
 </project>
