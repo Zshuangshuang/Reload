@@ -1,16 +1,20 @@
-package com.ssz.希尔排序;
-
-
 import java.util.Arrays;
 
-public class Test {
+/**
+ * Author:ZouDouble
+ * Description:
+ * 天气：晴天
+ * 目标：Good Offer
+ * Date    2021-03-05 21:11
+ */
+public class 希尔排序 {
     public static void shellSort(int[] array){
-       int gap = (array.length)/2;
-       while (gap > 1){
-           insertSortGap(array,gap);
-           gap /= 2;
-       }
-       insertSortGap(array,1);
+        int gap = array.length/2;
+        while (gap>1){
+            insertSortGap(array,gap);
+            gap = gap/2;
+        }
+        insertSortGap(array,1);
     }
 
     private static void insertSortGap(int[] array, int gap) {
